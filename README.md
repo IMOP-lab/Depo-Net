@@ -82,3 +82,13 @@ Table 3: The comparison results of the baseline model with and without SFSM on S
 <p align=left>
 </p>
 
+#### Validation Across Different Structures in HastFormer
+
+Table 4: In Hasformer, the query (Q), key (K), and value (V) in the self-attention mechanism are replaced with a combination of the real and imaginary parts of the Fourier transform and the wavelet transform. The last row in the table shows our design in Hasformer. The optimal values are highlighted in red, while the suboptimal values are highlighted in blue.
+
+<div align=left>
+  <img src="Tables/Table4.jpg">
+</div>
+<p align=left>
+</p>
+
