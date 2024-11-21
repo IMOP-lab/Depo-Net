@@ -10,5 +10,9 @@ Hangzhou Dianzi University IMOP-lab
   <img src="Images/image_Depo.png">
 </div>
 <p align=left>
-  Figure 1: Detailed network structure of the HV-Mamba.
+  Figure 1: Detailed network structure of the Depo-Net.
 </p>
+
+
+
+## Installation
