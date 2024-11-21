@@ -2,10 +2,6 @@
 
 ### [Project page](https://github.com/IMOP-lab/Depo-Net) | [Our laboratory home page](https://github.com/IMOP-lab) 
 
-by Minhong Sun, Han Yang, Xingru Huang
-
-Hangzhou Dianzi University IMOP-lab
-
 <div align=left>
   <img src="Images/image_Depo.png">
 </div>
@@ -25,3 +21,9 @@ Initial learning rates are uniformly set at 0.0001, with batch sizes standardize
 2.HRSID \url{https://github.com/chaozhong2010/HRSID}.
 
 3.FRBS \url{https://drive.google.com/file/d/15WYzzFZvAHmqSIW0PXXRTp_YVd_868l8/view}.
+
+### Baseline
+We provide GitHub links pointing to the PyTorch implementation code for all networks compared in this experiment here, so you can easily reproduce all these projects.
+[U-Net](https://github.com/milesial/Pytorch-UNet);[ENet](https://github.com/davidtvs/PyTorch-ENet);[SegNet](https://github.com/vinceecws/SegNet_PyTorch?tab=readme-ov-file);[ICNet](https://github.com/hszhao/ICNet);[LEDNet](https://github.com/sczhou/LEDNet);[MRUNet](https://github.com/cyan-utokyo/MRUnet.git);[DconnNet](https://github.com/Zyun-Y/DconnNet);[PSPNet](https://github.com/hszhao/PSPNet.git);[UNet+Att](https://github.com/EvilPsyCHo/Attention-PyTorch.git);[PAttUNet](https://github.com/faresbougourzi/PDAtt-Unet);[DAttUNet](https://github.com/faresbougourzi/PDAtt-Unet);[DANet](https://github.com/junfu1115/DANet);[R2U-Net](https://github.com/ncpaddle/R2UNet-paddle); 
+
+  [CENet](https://github.com/Guzaiwang/CE-Net);  [OCNet](https://github.com/openseg-group/OCNet.pytorch); [CGNet](https://github.com/wutianyiRosun/CGNet);  ,  [DeepLab](https://github.com/kazuto1011/deeplab-pytorch?tab=readme-ov-file); 
