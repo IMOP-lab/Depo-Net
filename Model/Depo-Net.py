@@ -103,7 +103,7 @@ class HastFormer(nn.Module):
         batch_size, channels, height, width = x.size()
         low_freq = x[:, :, 0::2, 0::2]
         high_freq = x[:, :, 1::2, 1::2]
-        xdwt =self.cwf64(low_freq,high_freq)
+        xdwt =self.DSC64(low_freq,high_freq)
         xdwt=F.interpolate(xdwt, scale_factor=2, mode='bilinear', align_corners=True)
         q = xfft_real
         k = xfft_imag
