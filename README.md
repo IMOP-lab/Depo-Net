@@ -36,3 +36,17 @@ Table 1: The segmentation results of Depo-Net are compared with previous models 
 <p align=left>
    Segmentation results are presented on SARBuD data.
 </p>
+
+<div align=left>
+  <img src="Tables/HRSID.jpg">
+</div>
+<p align=left>
+   Segmentation results are presented on HRSID data.
+</p>
+
+<div align=left>
+  <img src="Tables/FRBS.jpg">
+</div>
+<p align=left>
+   Segmentation results are presented on FRBS data.
+</p>
