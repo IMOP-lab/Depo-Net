@@ -28,7 +28,7 @@ We provide GitHub links pointing to the PyTorch implementation code for all netw
 [U-Net](https://github.com/milesial/Pytorch-UNet);[ENet](https://github.com/davidtvs/PyTorch-ENet);[SegNet](https://github.com/vinceecws/SegNet_PyTorch?tab=readme-ov-file);[ICNet](https://github.com/hszhao/ICNet);[LEDNet](https://github.com/sczhou/LEDNet);[MRUNet](https://github.com/cyan-utokyo/MRUnet.git);[DconnNet](https://github.com/Zyun-Y/DconnNet);[PSPNet](https://github.com/hszhao/PSPNet.git);[UNet+Att](https://github.com/EvilPsyCHo/Attention-PyTorch.git);[PAttUNet](https://github.com/faresbougourzi/PDAtt-Unet);[DAttUNet](https://github.com/faresbougourzi/PDAtt-Unet);[DANet](https://github.com/junfu1115/DANet);[R2U-Net](https://github.com/ncpaddle/R2UNet-paddle); [Attention R2UNet](https://github.com/LeeJunHyun/Image_Segmentation);[poly pvt](https://github.com/DengPingFan/Polyp-PVT.git);[BAT](https://github.com/sharkdp/bat.git);[MDViT](https://github.com/siyi-wind/MDViT.git);[TransUNet](https://github.com/Beckschen/TransUNet.git);[UNeXt](https://github.com/jeya-maria-jose/UNeXt-pytorch.git);[TransFuse](https://github.com/Rayicer/TransFuse.git);[MambaHSI](https://github.com/li-yapeng/MambaHSI.git).
 
 ### Results
-Table 1: The segmentation results of Depo-Net are compared with previous models on three SAR datasets (SARBuD, HRSID, FRBS), presented in three tables. 
+Table 1: The segmentation results of Depo-Net are compared with previous models on three SAR datasets (SARBuD, HRSID, FRBS), presented in three tables. The highest score for each metric is highlighted in red, while the second-best score is highlighted in blue. Segmentation models are detailed by method categories, with the best result within each category also highlighted in blue.
 
 <div align=left>
   <img src="Tables/SARBuD.jpg">
@@ -51,7 +51,6 @@ Table 1: The segmentation results of Depo-Net are compared with previous models 
    Segmentation results are presented on FRBS data.
 </p>
 
-The highest score for each metric is highlighted in red, while the second-best score is highlighted in blue. Segmentation models are detailed by method categories, with the best result within each category also highlighted in blue.
 
 
 A visual comparison of Depo-Net and other segmentation models is conducted across three SAR datasets. Five representative images are selected from each dataset for display. In these images, the segmentation results for target objects are filled in green, while the ground truth is outlined in red. Panel (a) represents the original image, {(b)-(g)} present the best segmentation results from each method category across the datasets, as shown in Table.\ref{tab: Buliding}. Specifically, (b) represents the best-performing model based on CNN methods across the three datasets, (c) represents the best-performing model based on CNN with attention mechanisms, and so on for the remaining categories, and (h) represents the segmentation result of Depo-Net.
@@ -59,7 +58,7 @@ A visual comparison of Depo-Net and other segmentation models is conducted acros
   <img src="Images/image_dif_scene.png">
 </div>
 <p align=left>
-   Segmentation results are presented on SARBuD data.
+    Figure 2:Visual segmentation results
 </p>
 
 
