@@ -31,7 +31,7 @@ We provide GitHub links pointing to the PyTorch implementation code for all netw
 Table 1: The segmentation results of Depo-Net are compared with previous models on three SAR datasets (SARBuD, HRSID, FRBS), presented in three tables. 
 
 <div align=left>
-  <img src="Tables/SARBuD.png">
+  <img src="Tables/SARBuD.jpg">
 </div>
 <p align=left>
   Figure 1: Detailed network structure of the Depo-Net.
