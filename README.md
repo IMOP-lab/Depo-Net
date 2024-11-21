@@ -34,5 +34,5 @@ Table 1: The segmentation results of Depo-Net are compared with previous models 
   <img src="Tables/SARBuD.jpg">
 </div>
 <p align=left>
-  Figure 1: Detailed network structure of the Depo-Net.
+   Segmentation results are presented on SARBuD data.
 </p>
