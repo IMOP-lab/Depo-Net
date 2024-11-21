@@ -61,5 +61,16 @@ A visual comparison of Depo-Net and other segmentation models is conducted acros
     Figure 2:Visual segmentation results
 </p>
 
+### Ablation study
+
+#### Effect of Removing Module
+Table 2: The ablation results of key modules in Depo-Net on SARBuD, with the optimal values highlighted in red, and the suboptimal values highlighted in blue. The last row of the table represents our proposed Depo-Net. Here, "\checkmark" indicates the presence of the module, and "Hasformer (DL)" denotes that the Hasformer is placed at the deepest layer of the network.
+
+<div align=left>
+  <img src="Tables/Tables2.jpg">
+</div>
+<p align=left>
+   Segmentation results are presented on FRBS data.
+</p>
 
 
