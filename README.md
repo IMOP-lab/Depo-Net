@@ -70,7 +70,15 @@ Table 2: The ablation results of key modules in Depo-Net on SARBuD, with the opt
   <img src="Tables/Table2.jpg">
 </div>
 <p align=left>
-   Segmentation results are presented on FRBS data.
 </p>
 
+#### Integration of SFSM Across Multiple Architectures
+
+Table 3: The comparison results of the baseline model with and without SFSM on SARBuD are presented, with the optimal values highlighted in red and the second-best values highlighted in blue. Here, \(\mathcal{F}\) denotes the integration of SFSM into the original baseline model.
+
+<div align=left>
+  <img src="Tables/Table3.jpg">
+</div>
+<p align=left>
+</p>
 
