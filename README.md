@@ -92,3 +92,13 @@ Table 4: In Hasformer, the query (Q), key (K), and value (V) in the self-attenti
 <p align=left>
 </p>
 
+#### Feature analysis
+
+<div align=left>
+  <img src="Images/image_ab_fe.png">
+</div>
+<p align=left>
+</p>
+
+Feature structure maps from different ablation experiments. (a) Original input SAR image. (b) Decoding with the traditional Mamba structure. (c) Decoding with the purfMamba module, replacing the conventional Mamba structure. (d) Feature maps extracted using the U-Net structure. (e) Feature maps extracted by U-Net with SFSM integration. Panels (c) and (e) demonstrate significant improvements in noise artifact reduction and clearer structural contours compared to their respective baseline experiments.
+
