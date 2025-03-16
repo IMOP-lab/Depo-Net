@@ -31,21 +31,21 @@ We provide GitHub links pointing to the PyTorch implementation code for all netw
 Table 1: The segmentation results of Depo-Net are compared with previous models on three SAR datasets (SARBuD, HRSID, FRBS), presented in three tables. The highest score for each metric is highlighted in red, while the second-best score is highlighted in blue. Segmentation models are detailed by method categories, with the best result within each category also highlighted in blue.
 
 <div align=left>
-  <img src="Table/SARBuD.jpg">
+  <img src="Tables/SARBuD.jpg">
 </div>
 <p align=left>
    Segmentation results are presented on SARBuD data.
 </p>
 
 <div align=left>
-  <img src="Table/HRSID.jpg">
+  <img src="Tables/HRSID.jpg">
 </div>
 <p align=left>
    Segmentation results are presented on HRSID data.
 </p>
 
 <div align=left>
-  <img src="Table/FRBS.jpg">
+  <img src="Tables/FRBS.jpg">
 </div>
 <p align=left>
    Segmentation results are presented on FRBS data.
