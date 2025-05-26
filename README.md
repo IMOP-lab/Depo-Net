@@ -54,7 +54,7 @@ Table 1: The segmentation results of Depo-Net are compared with previous models 
 #### Visual segmentation results
 A visual comparison of Depo-Net and other segmentation models is conducted across three SAR datasets. Five representative images are selected from each dataset for display. In these images, the segmentation results for target objects are filled in green, while the ground truth is outlined in red. Panel (a) represents the original image, {(b)-(g)} present the best segmentation results from each method category across the datasets, as shown in Table1. Specifically, (b) represents the best-performing model based on CNN methods across the three datasets, (c) represents the best-performing model based on CNN with attention mechanisms, and so on for the remaining categories, and (h) represents the segmentation result of Depo-Net.
 <div align=left>
-  <img src="Images/image_dif_scene.png">
+  <img src="Images/image_baseline_new.png">
 </div>
 <p align=left>
     Figure 2:Visual segmentation results
