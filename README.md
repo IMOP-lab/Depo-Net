@@ -3,7 +3,7 @@
 ### [Project page](https://github.com/IMOP-lab/Depo-Net) | [Our laboratory home page](https://github.com/IMOP-lab) 
 
 <div align=left>
-  <img src="Images/image_Depo_new.png">
+  <img src="Images/image_Depo.png">
 </div>
 <p align=left>
   Figure 1: Detailed network structure of the Depo-Net.
@@ -31,7 +31,7 @@ We provide GitHub links pointing to the PyTorch implementation code for all netw
 Table 1: The segmentation results of Depo-Net are compared with previous models on three SAR datasets (SARBuD, HRSID, FRBS), presented in three tables. The highest score for each metric is highlighted in red, while the second-best score is highlighted in blue. Segmentation models are detailed by method categories, with the best result within each category also highlighted in blue.
 
 <div align=left>
-  <img src="Tables/SARBuD.jpg">
+  <img src="Tables/SARBud.jpg">
 </div>
 <p align=left>
    Segmentation results are presented on SARBuD data.
