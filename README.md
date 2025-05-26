@@ -66,17 +66,21 @@ A visual comparison of Depo-Net and other segmentation models is conducted acros
 Table 2: The ablation results of key modules in Depo-Net on SARBuD, with the optimal values highlighted in red, and the suboptimal values highlighted in blue. The last row of the table represents our proposed Depo-Net. Here, "\checkmark" indicates the presence of the module, and "Hasformer (DL)" denotes that the Hasformer is placed at the deepest layer of the network.
 
 <div align=left>
-  <img src="Tables/Table2.jpg">
+  <img src="Images/Tables2.jpg">
 </div>
 <p align=left>
 </p>
-
+<div align=left>
+  <img src="Images/Tables3.jpg">
+</div>
+<p align=left>
+</p>
 #### Integration of SFSM Across Multiple Architectures
 
 Table 3: The comparison results of the baseline model with and without SFSM on SARBuD are presented, with the optimal values highlighted in red and the second-best values highlighted in blue. Here, \(\mathcal{F}\) denotes the integration of SFSM into the original baseline model.
 
 <div align=left>
-  <img src="Tables/Table3.jpg">
+  <img src="Images/Tables4.jpg">
 </div>
 <p align=left>
 </p>
@@ -86,7 +90,7 @@ Table 3: The comparison results of the baseline model with and without SFSM on S
 Table 4: In Hasformer, the query (Q), key (K), and value (V) in the self-attention mechanism are replaced with a combination of the real and imaginary parts of the Fourier transform and the wavelet transform. The last row in the table shows our design in Hasformer. The optimal values are highlighted in red, while the suboptimal values are highlighted in blue.
 
 <div align=left>
-  <img src="Tables/Table4.jpg">
+  <img src="Images/Tables5.jpg">
 </div>
 <p align=left>
 </p>
@@ -94,7 +98,7 @@ Table 4: In Hasformer, the query (Q), key (K), and value (V) in the self-attenti
 #### Feature analysis
 
 <div align=left>
-  <img src="Images/image_ab_fe.png">
+  <img src="Images/image_ab_fe_an.png">
 </div>
 <p align=left>
 </p>
