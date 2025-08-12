@@ -1,4 +1,4 @@
-# Harmonized Subspace Spectro-Temporal Transformer Guided Key Geographic Feature Extraction in SAR
+# Harmonized spatial-frequency domain synergy driven geospatial feature synthesis for enhanced SAR semantic segmentation
 
 ### [Project page](https://github.com/IMOP-lab/Depo-Net) | [Our laboratory home page](https://github.com/IMOP-lab) 
 
