@@ -73,7 +73,7 @@ class DSC(nn.Module):
         z_af = t_weighted + f_weighted
         return z_af
       
-class HastFormer(nn.Module):
+class HSSTA(nn.Module):
     def __init__(self, channels, num_heads, kernels=[1, 3, 5, 7], reduction=16, group=1, L=32, dynamic_ratio=4):
         super().__init__()
         self.num_heads = num_heads
@@ -228,15 +228,15 @@ class Depo_Net(nn.Module):
         self.n_channels = n_channels
         self.n_classes = n_classes
         self.bilinear = bilinear
-        def create_hastformer(channels):
-            return HastFormer(
+        def create_HSSTA(channels):
+            return HSSTA(
                 channels=channels,num_heads=8,
                 kernels=[1, 3, 5, 7], reduction=16,
                 group=1, L=32,dynamic_ratio=4 )
-        self.HastFormer = create_hastformer(128)
-        self.HastFormer256 = create_hastformer(256)
-        self.HastFormer512 = create_hastformer(512)
-        self.HastFormer1024 = create_hastformer(1024)
+        self.HSSTA = create_HSSTA(128)
+        self.HSSTA256 = create_HSSTA(256)
+        self.HSSTA512 = create_HSSTA(512)
+        self.HSSTA1024 = create_HSSTA(1024)
 
         self.dim_match_layer1= DimensionMatchingLayer(96, 64)
         self.dim_match_layer2 = DimensionMatchingLayer(96, 128)
@@ -294,13 +294,13 @@ class Depo_Net(nn.Module):
         y1[5]=self.SFSM1024(y1[5])
         v1= self.DSC64(y1[1],e1)   # 64 112 112
         v2= self.DSC128(y1[2],e2)  # 128, 56, 56
-        v2=self.HastFormer(v2)
+        v2=self.HSSTA(v2)
         v3= self.DSC256(y1[3],e3)  # 256, 28, 28
-        v3=self.HastFormer256(v3)
+        v3=self.HSSTA256(v3)
         v4= self.DSC512(y1[4],e4)  # 512, 14, 14
-        v4=self.HastFormer512(v4)
+        v4=self.HSSTA512(v4)
         v5= self.DSC1024(y1[5],e5) # 1024, 7, 7
-        v5 = self.purfMamba1024(v5)
+        v5 = self.HSSTA1024(v5)
         x = self.up1(v5, v4)
         x=self.purfMamba512(x)
         x = self.up2(x, v3)   
